@@ -169,6 +169,7 @@ type StatusUpdateParams struct {
 	TrimUser           *bool    `url:"trim_user,omitempty"`
 	MediaIds           []int64  `url:"media_ids,omitempty,comma"`
 	TweetMode          string   `url:"tweet_mode,omitempty"`
+	AttachmentURL      string   `url:"attachment_url,omitempty"`
 }
 
 // Update updates the user's status, also known as Tweeting.
